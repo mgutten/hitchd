@@ -3,9 +3,10 @@
  *= require_self
  */
 
-body, ul, p {
+body, ul, li, p, a {
   margin: 0;
   padding: 0;
+  font-family: "Lato", Helvetica, Arial, sans-serif
 }
 
 a {
@@ -31,7 +32,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 2em 1em;
-  font-family: "Lato", Arial;
 }
 
 nav ul li a {
