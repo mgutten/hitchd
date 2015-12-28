@@ -1,0 +1,19 @@
+.registry h3 {
+  text-align: center;
+}
+
+.registry ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 150px;
+}
+
+.registry ul li img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%;
+}
