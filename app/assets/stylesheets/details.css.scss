@@ -2,18 +2,48 @@
   text-align: center;
 }
 
+.details section {
+  margin-top: 4em;
+}
+
+.details h2 {
+  font-weight: bold;
+}
+
 .details .date {
   font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
   font-size: 60px;
 }
 
-.details .location {
-  margin-top: 4em;
-  font-size: 14px;
+.details ul {
+  float: left;
+  width: 40%;
+  font-size: 18px;
+  text-align: left;
+}
+
+.details ul:first-of-type {
+  margin-left: 15%;
+}
+
+@media (max-width: 480px) {
+  .details ul {
+    width: 50%;
+    margin-left: 0 !important;
+    font-size: 14px;
+  }
+}
+
+.details ul li {
+  margin-top: .75em;
+}
+
+.details ul li i {
+  width: 24px;
 }
 
 .details .location strong {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 iframe {

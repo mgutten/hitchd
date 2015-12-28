@@ -9,4 +9,13 @@ class ApplicationController < ActionController::Base
   def details
   end
 
+  def registry
+  end
+
+  def rsvp
+  end
+
+  def contact
+  end
+
 end
