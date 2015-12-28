@@ -1,0 +1,52 @@
+h1 {
+  position: absolute;
+  z-index: 2;
+  bottom: 1em;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 0.9em;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 65px;
+    bottom: 20px;
+  }
+}
+
+div.home-background {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: image-url("index/proposal.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
