@@ -3,11 +3,15 @@
 }
 
 .details section {
-  margin-top: 4em;
+  margin-top: 3.5em;
 }
 
 .details h2 {
   font-weight: bold;
+}
+
+.details .ceremony {
+  margin-bottom: 0;
 }
 
 .details .date {
@@ -42,7 +46,7 @@
   width: 24px;
 }
 
-.details .location strong {
+.details .venue strong {
   font-size: 18px;
 }
 

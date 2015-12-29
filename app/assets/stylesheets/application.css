@@ -48,6 +48,31 @@ nav ul li {
   padding: 2em 1em;
 }
 
+nav .dropdown-menu {
+  top: 95%;
+  border: none;
+}
+
+nav .dropdown {
+  padding-bottom: 0;
+  margin-bottom: 2em;
+}
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown li {
+  padding: 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+nav .dropdown li a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 nav ul li a {
   color: #000;
   text-transform: uppercase;

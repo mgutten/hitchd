@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Emily & Marshall</title>
+  <title>Emily &amp; Marshall | Wedding</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="HealthRight survey">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
@@ -14,12 +14,31 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body
+  <% if content_for?(:body_attributes) %>
+    <%= yield(:body_attributes) %>
+  <% end %>>
 
 <nav>
   <ul>
     <li><a href="/" class="fa fa-home home"></a></li>
-    <li><a href="/details">Details</a></li>
+    <li class="dropdown">
+      <a href="/details" data-toggle="dropdown" class="dropdown-toggle">Details <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="/details">Time &amp; Date</a>
+        </li>
+        <li>
+          <a href="/details#accommodations">Accommodations</a>
+        </li>
+        <li>
+          <a href="/details#todo">Things To Do</a>
+        </li>
+        <li>
+          <a href="/details#directions">Directions</a>
+        </li>
+      </ul>
+    </li>
     <li><a href="/registry">Registry</a></li>
     <li><a href="/rsvp">RSVP</a></li>
     <li><a href="/contact">Contact</a></li>
