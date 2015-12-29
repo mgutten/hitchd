@@ -12,5 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery.slicknav.min.js
 //= require_tree .
