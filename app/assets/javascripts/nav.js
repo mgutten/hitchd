@@ -11,7 +11,7 @@
     },
 
     mobile: function() {
-      return $(window).width() <= 600;
+      return $(window).width() <= 768;
     },
 
     disableDropdown: function() {
