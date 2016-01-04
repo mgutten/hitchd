@@ -41,6 +41,14 @@ iframe {
   border-bottom: 1px solid #ddd;
 }
 
+.slicknav_menu li {
+  border-bottom: 1px solid #eee;
+}
+
+.slicknav_menu li:last-of-type {
+  border-bottom: none;
+}
+
 .slicknav_nav a {
   color: #000;
   text-transform: uppercase;
