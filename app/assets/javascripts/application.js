@@ -13,4 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.slicknav.min.js
+//= require slick.min.js
 //= require_tree .

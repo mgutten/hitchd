@@ -36,17 +36,41 @@ h1 {
   }
 }
 
-div.home-background {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  background-image: image-url("index/proposal.jpg");
+.slick-slider {
+  margin-top: -78px;
+}
+
+.home-slideshow .slick-track {
+  height: 100vh !important;
+}
+
+.home-background {
+  // position: absolute;
+  // z-index: 1;
+  // top: 0;
+  // left: 0;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.home-background.bg1 {
+  background-image: image-url("index/proposal.jpg");
+}
+
+.home-background.bg2 {
+  background-image: image-url("index/home-2-sized.jpg");
+}
+
+.home-background.bg3 {
+  background-image: image-url("index/home-1-sized.jpg");
+}
+
+.home-background.bg4 {
+  background-image: image-url("index/home-3-sized.jpg");
+}
+
+.home-background.bg5 {
+  background-image: image-url("index/home-4-sized.jpg");
 }
