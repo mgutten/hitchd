@@ -3,7 +3,7 @@
 }
 
 .details section {
-  margin-top: 3.5em;
+  margin-top: 5.5em;
 }
 
 .details h2 {
@@ -13,39 +13,84 @@
 .details .ceremony {
   margin-bottom: 0;
 }
-
 .details .date {
   font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
   font-size: 60px;
 }
+.details .point {
+  margin-bottom: -20px;
+  width: auto;
+  -webkit-animation: point 2s infinite;
+     -moz-animation: point 2s infinite;
+       -o-animation: point 2s infinite;
+          animation: point 2s infinite;
+}
 
-.details ul {
+.details .tips ul {
   float: left;
   width: 40%;
   font-size: 18px;
   text-align: left;
 }
 
-.details ul:first-of-type {
+.details .tips ul:first-of-type {
   margin-left: 15%;
 }
 
 @media (max-width: 480px) {
-  .details ul {
+  .details .tips ul {
     width: 50%;
     margin-left: 0 !important;
     font-size: 14px;
   }
 }
 
-.details ul li {
+.details .tips ul li {
   margin-top: .75em;
 }
 
-.details ul li i {
+.details .tips ul li i {
   width: 24px;
 }
 
-.details .venue strong {
+.details .venue strong,
+.details .accommodations strong {
   font-size: 18px;
+}
+.details .accommodations h3 {
+  margin-bottom: 20px;
+}
+.details .accommodations li {
+  display: inline-block;
+  float: left;
+  margin-top: 30px;
+  width: 50%;
+}
+
+@keyframes point {
+  0% { transform: translateY(0px); }
+  30% { transform: translateY(10px); }
+  60% { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
+}
+
+@-moz-keyframes point {
+  0% { transform: translateY(0px); }
+  30% { transform: translateY(10px); }
+  60% { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
+}
+
+@-webkit-keyframes point {
+  0% { transform: translateY(0px); }
+  30% { transform: translateY(10px); }
+  60% { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
+}
+
+@-o-keyframes point {
+  0% { transform: translateY(0px); }
+  30% { transform: translateY(10px); }
+  60% { transform: translateY(0px); }
+  100% { transform: translateY(0px); }
 }

@@ -4,7 +4,8 @@
       <%= image_tag 'details/details-sized.jpg' %>
       <h3>You're invited to our wedding on</h3>
       <p class="date">September 24, 2016</p>
-      <h3 class="ceremony">Ceremony begins at 3:30pm</h3>
+      <h3 class="ceremony">Ceremony begins at 3:15pm</h3>
+      <%= image_tag 'down-arrows.png', :class => 'point'  %>
       <section class="clearfix tips">
         <%= section("Tips") %>
         <ul>
@@ -30,6 +31,27 @@
       </section>
       <section class="accommodations" id="accommodations">
         <%= section("Accommodations") %>
+        <h3>Book early! Hotels fill up quickly in the wine country.</h3>
+        <ul class="clearfix">
+          <li>
+            <strong>Hampton Inn & Suites</strong><br>
+            25 minutes from venue<br>
+            about $215-$260/night<br>
+            <a href="http://www.marriott.com/hotels/travel/stsrs-fairfield-inn-and-suites-santa-rosa-sebastopol/" target="_blank">Website</a>
+          </li>
+          <li>
+            <strong>Best Western Wine Country</strong><br>
+            25 minutes from venue<br>
+            about $190-$240/night<br>
+            <a href="http://book.bestwestern.com/bestwestern/US/CA/Santa-Rosa-hotels/BEST-WESTERN-PLUS-Wine-Country-Inn---Suites/Hotel-Overview.do?propertyCode=05685" target="_blank">Website</a>
+          </li>
+          <li>
+            <strong>Numerous B&Bs</strong><br>
+            from $90-$200/night<br>
+            <a href="https://www.airbnb.com/s/Sebastopol--CA?checkin=09%2F24%2F2016&checkout=09%2F25%2F2016&guests=2&room_types%5B%5D=Entire+home%2Fapt&room_types%5B%5D=Private+room&price_max=213&zoom=11&search_by_map=true&sw_lat=38.24741840785763&sw_lng=-122.99380626654488&ne_lat=38.55985673864242&ne_lng=-122.64499034857613&ss_id=xaaaah18&s_tag=7MSfixrX" target="_blank">AirBnB</a>
+          </li>
+
+        </ul>
       </section>
       <section class="todo" id="todo">
         <%= section("Things To Do") %>
