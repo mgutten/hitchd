@@ -19,11 +19,15 @@
 }
 .details .point {
   margin-bottom: -20px;
-  width: auto;
-  -webkit-animation: point 2s infinite;
-     -moz-animation: point 2s infinite;
-       -o-animation: point 2s infinite;
-          animation: point 2s infinite;
+  width: 70px;
+  -webkit-animation: point 1.6s infinite;
+     -moz-animation: point 1.6s infinite;
+       -o-animation: point 1.6s infinite;
+          animation: point 1.6s infinite;
+}
+
+.details .tips {
+  margin-top: 4em;
 }
 
 .details .tips ul {
@@ -69,28 +73,28 @@
 
 @keyframes point {
   0% { transform: translateY(0px); }
-  30% { transform: translateY(10px); }
-  60% { transform: translateY(0px); }
+  35% { transform: translateY(10px); }
+  70% { transform: translateY(0px); }
   100% { transform: translateY(0px); }
 }
 
 @-moz-keyframes point {
   0% { transform: translateY(0px); }
-  30% { transform: translateY(10px); }
-  60% { transform: translateY(0px); }
+  35% { transform: translateY(10px); }
+  70% { transform: translateY(0px); }
   100% { transform: translateY(0px); }
 }
 
 @-webkit-keyframes point {
   0% { transform: translateY(0px); }
-  30% { transform: translateY(10px); }
-  60% { transform: translateY(0px); }
+  35% { transform: translateY(10px); }
+  70% { transform: translateY(0px); }
   100% { transform: translateY(0px); }
 }
 
 @-o-keyframes point {
   0% { transform: translateY(0px); }
-  30% { transform: translateY(10px); }
-  60% { transform: translateY(0px); }
+  35% { transform: translateY(10px); }
+  70% { transform: translateY(0px); }
   100% { transform: translateY(0px); }
 }
