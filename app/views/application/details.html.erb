@@ -2,9 +2,22 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
       <%= image_tag 'details/details-sized.jpg' %>
-      <h3>You're invited to our wedding on</h3>
-      <p class="date">September 24, 2016</p>
-      <h3 class="ceremony">Ceremony begins at 3:15pm</h3>
+      <div class="row time">
+        <div class="col-md-6 col-xs-12">
+          <h3 class="header">THE NIGHT BEFORE</h3>
+          <%= calendar(22, 23) %>
+          <p class="date">September 23, 2016</p>
+          <h3 class="ceremony">Drink and be merry - 7:00pm</h3>
+          <h3 class="ceremony"><a href="https://www.google.com/maps/place/HopMonk+Tavern+Sebastopol/@38.4012386,-122.822579,15z/data=!4m5!3m4!1s0x0:0xc04c801a5c359cdd!8m2!3d38.4012386!4d-122.822579" target="_blank">@ HopMonk</a></h3>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <h3 class="header second">CEREMONY & RECEPTION</h3>
+          <%= calendar(22, 24) %>
+          <p class="date">September 24, 2016</p>
+          <h3 class="ceremony">Ceremony begins - 3:15pm</h3>
+          <h3 class="ceremony"><a href="#directions">@ Redwood Hill Gardens</a></h3>
+        </div>
+      </div>
       <%= image_tag 'down-arrows.png', :class => 'point'  %>
       <section class="clearfix tips">
         <%= section("Tips") %>
