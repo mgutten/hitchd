@@ -11,6 +11,22 @@
   font-weight: bold;
 }
 
+.details {
+  .header-img {
+    position: relative;
+
+    p {
+      position: absolute;
+      z-index: 10;
+      bottom: 10px;
+      right: 10px;
+      color: #fff;
+      opacity: .8;
+      font-size: 13px;
+    }
+  }
+}
+
 .details .time {
 
   h3.header {
